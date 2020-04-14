@@ -1,0 +1,12 @@
+<view>
+	<view style="text-align:center;margin-bottom:16rpx">登录状态：
+		<text wx:if="{{isLogin}}" style="color:green">已登录</text>
+		<text wx:if="{{!isLogin}}" style="color:red">未登录</text>
+	</view>
+	<van-cell-group>
+		<van-cell title="登录页" value="白名单" data-url="/pages/login/login" bind:click="handleTap" is-link></van-cell>
+		<van-cell title="Test" data-url="/pages/test/test" bind:click="handleTap" is-link></van-cell>
+		<van-cell title="Test 2" data-url="/pages/test2/test2" bind:click="handleTap" is-link></van-cell>
+		<van-cell title="Test 3" data-url="/pages/test3/test3" bind:click="handleTap" is-link border="{{false}}"></van-cell>
+	</van-cell-group>
+</view>
