@@ -8,6 +8,10 @@
 
 ## 预览
 
+微信搜索小程序：小功能合集
+
+或
+
 <img src="http://cdn.xuanyunet.com/xy_weapp_qrcode.jpg"/>
 
 
