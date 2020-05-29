@@ -1,0 +1,28 @@
+<view class="doc-demo-section">
+    <view class="doc-demo-block">
+        <view class="doc-demo-block__title">自定义导航栏</view>
+        <view class="nav-bar">
+            <view class="nav-bar__status-bar" style="height:{{statusBarHeight}}px"></view>
+            <view class="nav-bar__bar" style="height:{{navBarHeight}}px">
+                <view class="nav-bar__left">
+                    <van-icon name="arrow-left"></van-icon>
+                </view>
+                <view class="nav-bar__title">NavBar 导航栏</view>
+                <view class="nav-bar__right"></view>
+            </view>
+        </view>
+    </view>
+
+
+    <view class="doc-demo-block">
+        <view class="doc-demo-block__title">Vant 导航栏</view>
+        <van-nav-bar
+                title="标题"
+                left-text="返回"
+                right-text="按钮"
+                left-arrow
+        />
+    </view>
+
+
+</view>

@@ -1,5 +1,6 @@
 const app = getApp()
 Component({
+    externalClasses: ['custom-class'],
     lifetimes: {
         attached: function () {
             this.setUrl()

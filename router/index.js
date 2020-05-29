@@ -1,7 +1,7 @@
-const routerLink = require('./routerLink')
+const router = require('./router')
 const routerPage = require('./routerPage')
 
 module.exports = {
-    routerLink,
+    router,
     routerPage
 }

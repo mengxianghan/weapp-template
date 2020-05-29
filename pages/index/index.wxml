@@ -1,12 +1,28 @@
-<view>
-	<view style="text-align:center;margin-bottom:16rpx">登录状态：
-		<text wx:if="{{isLogin}}" style="color:green">已登录</text>
-		<text wx:if="{{!isLogin}}" style="color:red">未登录</text>
-	</view>
-	<van-cell-group>
-		<van-cell title="登录页" value="白名单" data-url="/pages/login/login" bind:click="handleTap" is-link></van-cell>
-		<van-cell title="Test" data-url="/pages/test/test" bind:click="handleTap" is-link></van-cell>
-		<van-cell title="Test 2" data-url="/pages/test2/test2" bind:click="handleTap" is-link></van-cell>
-		<van-cell title="Test 3" data-url="/pages/test3/test3" bind:click="handleTap" is-link border="{{false}}"></van-cell>
-	</van-cell-group>
+<view class="demo-home">
+    <view class="demo-home__title">
+        <image src="http://cdn.xuanyunet.com/common/images/logo.svg"
+               mode="widthFix"
+               class="demo-home__title__img"/>
+        <text class="demo-home__title__text">小功能合集</text>
+    </view>
+    <view class="demo-home__desc">
+        高效、便捷的小功能合集
+    </view>
+    <view class="demo-home-nav">
+        <!--<view class="demo-home-nav__title">基础组件</view>-->
+        <view class="demo-home-nav__group">
+            <router-link url="/pages/router/router"
+                         custom-class="demo-home-nav__block one-pan-link-mark">
+                <text class="demo-home-nav__text">Router 路由</text>
+                <van-icon name="arrow"
+                          color="#B6C3D2"></van-icon>
+            </router-link>
+            <router-link url="/pages/navBar/navBar"
+                         custom-class="demo-home-nav__block one-pan-link-mark">
+                <text class="demo-home-nav__text">NavBar 导航栏</text>
+                <van-icon name="arrow"
+                          color="#B6C3D2"></van-icon>
+            </router-link>
+        </view>
+    </view>
 </view>

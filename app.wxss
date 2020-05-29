@@ -1,4 +1,23 @@
 page {
-  font: normal normal normal 28rpx/1.5 'PingFang SC';
-  color: rgba(0, 0, 0, .65);
+  font: normal normal normal 14px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Segoe UI, Arial, Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+}
+
+.doc-demo-section {
+  box-sizing: border-box;
+  min-height: calc(100vh - 56px);
+  padding-bottom: 20px;
+}
+.doc-demo-block--padding {
+  padding: 0 16px;
+}
+.doc-demo-block:first-of-type .doc-demo-block__title {
+  padding-top: 20px;
+}
+.doc-demo-block__title {
+  margin: 0;
+  padding: 32px 16px 16px;
+  color: rgba(69, 90, 100, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
 }

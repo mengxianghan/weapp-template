@@ -2,7 +2,7 @@ const app = getApp()
 
 /**
  * 格式化参数
- * @param {*} query 
+ * @param {*} query
  */
 const formateUrl = function (obj = {}) {
     if (obj.hasOwnProperty('query')) {
@@ -21,17 +21,17 @@ const formateUrl = function (obj = {}) {
 /**
  * 重构导航api
  */
-const routerLink = {}
+const router = {}
 const navigateMap = ['switchTab', 'reLaunch', 'redirectTo', 'navigateTo', 'navigateBack']
 const routerBeforeEach = app.routerBeforeEach || function (to, next) {
     next()
 }
 navigateMap.forEach(key => {
-    routerLink[key] = function (obj) {
+    router[key] = function (obj) {
         routerBeforeEach.call(this, obj, function (to = obj) {
             if(to) wx[key](formateUrl(to))
         })
     }
 })
 
-module.exports = routerLink
+module.exports = router

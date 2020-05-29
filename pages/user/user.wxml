@@ -1,0 +1,16 @@
+<view>
+    <view class="user-info">
+        <view class="user-info__avatar">
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+        <view class="user-info__username">
+            <open-data type="userNickName"></open-data>
+        </view>
+    </view>
+    <van-cell-group>
+        <van-cell title="Github"
+                  border="{{false}}"
+                  is-link
+                  bind:click="handleGithub"></van-cell>
+    </van-cell-group>
+</view>

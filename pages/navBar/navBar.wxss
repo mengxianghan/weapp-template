@@ -1,0 +1,34 @@
+page {
+  background: #f7f8fa;
+}
+
+.nav-bar {
+  padding-bottom: 4px;
+  background: #fff;
+}
+.nav-bar__bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.nav-bar__left, .nav-bar__right {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+}
+.nav-bar__left {
+  top: 0;
+  left: 0;
+}
+.nav-bar__title {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}

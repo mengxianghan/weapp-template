@@ -109,7 +109,7 @@ class http {
 
 }
 
-class api extends http {
+class Api extends http {
     constructor() {
         super({
             baseURL: '' //接口地址
@@ -117,19 +117,26 @@ class api extends http {
     }
 }
 
-class readFile extends http {
+//读取远程文件内容
+class ReadFile extends http {
     constructor() {
         super({
             baseURL: '',
             responseType: 'blob',
             transformResponse: [(data) => {
-                return data
+                return new Promise((resolve, reject) => {
+                    let reader = new FileReader()
+                    reader.readAsText(data, 'UTF-8')
+                    reader.onload = function (e) {
+                        resolve(reader.result)
+                    }
+                })
             }]
         })
     }
 }
 
 module.exports = {
-    api: new api(),
-    readFile: new readFile()
+    api: new Api(),
+    readFile: new ReadFile()
 }

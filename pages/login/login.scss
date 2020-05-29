@@ -1,0 +1,23 @@
+.login {
+    padding: 46px 20px 20px;
+
+    &-header {
+        font-size: 24px;
+    }
+
+    &-form {
+        --cell-vertical-padding: 14px;
+        --cell-horizontal-padding: 0;
+
+        margin: 32px 0;
+
+        .van-cell::after {
+            left: 0;
+        }
+    }
+
+    &-btn {
+        --button-default-height: 50px;
+        --button-normal-font-size: 15px;
+    }
+}

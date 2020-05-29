@@ -1,0 +1,21 @@
+.login-state {
+    padding: 16px;
+    text-align: center;
+
+    &__success {
+        color: #07c160;
+    }
+
+    &__error {
+        color: #ee0a24;
+    }
+}
+
+.login-operate {
+    text-align: center;
+    margin-bottom: 16px;
+
+    .van-button {
+        margin: 0 8px;
+    }
+}

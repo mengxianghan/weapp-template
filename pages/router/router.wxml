@@ -1,0 +1,36 @@
+<view class="doc-demo-section">
+    <view class="login-state">
+        登录状态：
+        <text class="login-state__success"
+              wx:if="{{isLogin}}">已登录
+        </text>
+        <text class="login-state__error"
+              wx:if="{{!isLogin}}">未登录
+        </text>
+    </view>
+    <view class="login-operate">
+        <van-button type="primary"
+                    bind:click="handleSignIn">设为已登录
+        </van-button>
+        <van-button type="danger"
+                    bind:click="handleSignOut">设为未登录
+        </van-button>
+    </view>
+    <view class="doc-demo-block">
+        <van-cell-group>
+            <van-cell title="首页"
+                      label="不需要登录"
+                      is-link
+                      data-url="/pages/index/index"
+                      data-link-type="switchTab"
+                      bind:click="handleNavigate"></van-cell>
+            <van-cell title="个人中心"
+                      label="需要登录"
+                      is-link
+                      border="{{false}}"
+                      data-url="/pages/user/user"
+                      data-link-type="{{isLogin ? 'switchTab' : 'navigateTo'}}"
+                      bind:click="handleNavigate"></van-cell>
+        </van-cell-group>
+    </view>
+</view>

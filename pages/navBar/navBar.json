@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "NarBar 导航栏",
+  "usingComponents": {
+    "van-nav-bar": "@vant/weapp/nav-bar/index"
+  }
+}

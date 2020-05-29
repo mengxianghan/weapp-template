@@ -1,19 +1,14 @@
-const app = getApp()
-const {
-    routerLink
-} = require('../../router/index')
 Page({
-
     /**
      * 页面的初始数据
      */
-    data: {},
+    data: {
+    },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        console.log(routerLink)
     },
 
     /**
@@ -27,9 +22,12 @@ Page({
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
-        this.setData({
-            isLogin: app.globalData.isLogin
-        })
+        if (typeof this.getTabBar === 'function' &&
+            this.getTabBar()) {
+            this.getTabBar().setData({
+                active: 0
+            })
+        }
     },
 
     /**
@@ -64,16 +62,6 @@ Page({
      * 用户点击右上角分享
      */
     onShareAppMessage: function () {
-
-    },
-    handleTap: function (e) {
-        const {
-            url
-        } = e.currentTarget.dataset
-
-        routerLink.navigateTo({
-            url
-        })
 
     }
 })

@@ -1,23 +1,39 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/router/router",
     "pages/login/login",
+    "pages/user/user",
     "pages/test/test",
-    "pages/test2/test2",
-    "pages/test3/test3",
-    "pages/test4/test4"
+    "pages/navBar/navBar"
   ],
   "usingComponents": {
     "router-link": "/router/router-link/index",
-    "van-button": "@vant/weapp/button/index",
+    "van-icon": "@vant/weapp/icon/index",
     "van-cell-group": "@vant/weapp/cell-group/index",
     "van-cell": "@vant/weapp/cell/index",
-    "van-field":"@vant/weapp/field/index"
+    "van-button": "@vant/weapp/button/index"
+  },
+  "tabBar": {
+    "custom": true,
+    "borderStyle": "white",
+    "color": "#333",
+    "selectedColor": "#1989FA",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
   },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "xuanyu weapp",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "小功能合集",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
