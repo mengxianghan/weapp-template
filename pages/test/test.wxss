@@ -1,0 +1,14 @@
+page {
+  --nav-bar-title-font-size: 17px;
+}
+
+page {
+  background: #f7f8fa;
+}
+
+.van-nav-bar {
+  padding-bottom: 4px;
+}
+.van-nav-bar__left, .van-nav-bar__right {
+  bottom: 4px !important;
+}

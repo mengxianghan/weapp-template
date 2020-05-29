@@ -1,0 +1,21 @@
+<view class="login">
+    <view class="login-header">
+        欢迎登录
+    </view>
+    <view class="login-form">
+        <van-cell-group border="{{false}}">
+            <van-field placeholder="请输入账号"
+                       value="demo"></van-field>
+            <van-field placeholder="请输入密码"
+                       type="password"
+                       value="demo"></van-field>
+        </van-cell-group>
+    </view>
+    <view class="login-btn">
+        <van-button type="info"
+                    block
+                    bind:click="handleSignIn">
+            登录
+        </van-button>
+    </view>
+</view>
