@@ -1,5 +1,5 @@
 const flyio = require('flyio/index')
-const storage = require('../utils/storage')
+const storage = require('./storage')
 
 const fly = new flyio
 
