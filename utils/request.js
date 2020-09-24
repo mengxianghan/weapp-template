@@ -1,5 +1,6 @@
 const flyio = require('flyio/index')
 const storage = require('./storage')
+const env = require('../env')
 
 const fly = new flyio
 
@@ -112,7 +113,7 @@ class http {
 class Api extends http {
     constructor() {
         super({
-            baseURL: '' //接口地址
+            baseURL: env.WE_APP_API //接口地址
         })
     }
 }

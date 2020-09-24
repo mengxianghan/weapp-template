@@ -20,24 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddef6a7b-ae79-4258-964d-3f2779a3c2d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/weRouter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weRouter/we-router/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/whiteList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/whiteList.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/whiteList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/user/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/router-link/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/weRouter/we-router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/router-link/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/weRouter/we-router/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/router-link/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/weRouter/we-router/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/router-link/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/weRouter/weRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/routerPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/weRouter/wePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="ES6 File" />
       </list>
     </option>
   </component>
@@ -66,9 +54,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/api" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\weapp-template\config" />
+      <recent name="E:\project\weapp-template\core" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\weapp-template\api" />
     </key>
@@ -87,7 +79,8 @@
       <workItem from="1593765470649" duration="1929000" />
       <workItem from="1594092430507" duration="27000" />
       <workItem from="1600871027812" duration="6045000" />
-      <workItem from="1600921231400" duration="2293000" />
+      <workItem from="1600921231400" duration="2361000" />
+      <workItem from="1600927955900" duration="3252000" />
     </task>
     <servers />
   </component>
@@ -115,13 +108,13 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1593487983087" />
-    <state x="252" y="106" key="SettingsEditor" timestamp="1593487972231">
+    <state x="252" y="106" key="SettingsEditor" timestamp="1600931186688">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="252" y="106" key="SettingsEditor/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1593487972231" />
-    <state x="406" y="200" width="628" height="544" key="find.popup" timestamp="1600875023376">
+    <state x="252" y="106" key="SettingsEditor/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1600931186688" />
+    <state x="406" y="200" width="628" height="578" key="find.popup" timestamp="1600931208764">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="406" y="200" width="628" height="544" key="find.popup/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1600875023376" />
+    <state x="406" y="200" width="628" height="578" key="find.popup/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1600931208764" />
   </component>
 </project>
