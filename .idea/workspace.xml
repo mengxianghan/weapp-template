@@ -20,25 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddef6a7b-ae79-4258-964d-3f2779a3c2d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/weapp-template.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xy_weapp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/navBar/navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navBar/navBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/test/test.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test/test.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/style/vars.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/vars.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weRouter/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weRouter/we-router/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/whiteList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router-link/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/weRouter/we-router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router-link/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/weRouter/we-router/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router-link/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/weRouter/we-router/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router-link/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/weRouter/weRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/routerPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/weRouter/wePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,10 @@
       <option name="presentableId" value="Default" />
       <updated>1593484539329</updated>
       <workItem from="1593484540908" duration="1686000" />
-      <workItem from="1593765470649" duration="1570000" />
+      <workItem from="1593765470649" duration="1929000" />
+      <workItem from="1594092430507" duration="27000" />
+      <workItem from="1600871027812" duration="6045000" />
+      <workItem from="1600921231400" duration="2293000" />
     </task>
     <servers />
   </component>
@@ -117,5 +119,9 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="252" y="106" key="SettingsEditor/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1593487972231" />
+    <state x="406" y="200" width="628" height="544" key="find.popup" timestamp="1600875023376">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="406" y="200" width="628" height="544" key="find.popup/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1600875023376" />
   </component>
 </project>

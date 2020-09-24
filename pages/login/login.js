@@ -1,4 +1,5 @@
 const app = getApp()
+const {weRouter} = require('../../weRouter/index')
 Page({
     data: {
         redirect: ''
@@ -17,17 +18,17 @@ Page({
         app.globalData.isLogin = true
         if (redirect) {
             // 有跳转链接
-            wx.navigateTo({
+            weRouter.navigateTo({
                 url: redirect,
                 fail() {
-                    wx.switchTab({
+                    weRouter.switchTab({
                         url: redirect
                     })
                 }
             })
         } else {
             // 没有跳转连接
-            wx.switchTab({
+            weRouter.switchTab({
                 url: '/pages/index/index'
             })
         }

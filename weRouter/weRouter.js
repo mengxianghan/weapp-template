@@ -1,17 +1,12 @@
 const app = getApp()
 
-/**
- * 格式化参数
- * @param {*} query
- */
-const formateUrl = function (obj = {}) {
+const format = (obj = {}) => {
     if (obj.hasOwnProperty('query')) {
-        let queryArr = [],
-            query = ''
-        for (let key in obj.query) {
-            queryArr.push(`${key}=${obj.query[key]}`)
-        }
-        query = queryArr.join('&')
+        const query = Object.entries(obj.query).reduce((result, current) => {
+            result.push(current.join('='))
+            return result
+        }, []).join('&')
+
         obj.url = obj.url.indexOf('?') > -1 ? `${obj.url}&${query}` : `${obj.url}?${query}`
         delete obj.query
     }
@@ -21,17 +16,17 @@ const formateUrl = function (obj = {}) {
 /**
  * 重构导航api
  */
-const router = {}
+const weRouter = {}
 const navigateMap = ['switchTab', 'reLaunch', 'redirectTo', 'navigateTo', 'navigateBack']
 const routerBeforeEach = app.routerBeforeEach || function (to, next) {
     next()
 }
 navigateMap.forEach(key => {
-    router[key] = function (obj) {
+    weRouter[key] = function (obj) {
         routerBeforeEach.call(this, obj, function (to = obj) {
-            if(to) wx[key](formateUrl(to))
+            if (to) wx[key](format(to))
         })
     }
 })
 
-module.exports = router
+module.exports = weRouter

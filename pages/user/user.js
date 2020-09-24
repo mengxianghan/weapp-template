@@ -1,4 +1,5 @@
-Page({
+const {wePage} = require('../../weRouter/index')
+wePage({
     data: {},
     onLoad: function (options) {
 

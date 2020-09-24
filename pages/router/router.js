@@ -1,5 +1,5 @@
 const app = getApp()
-const {router} = require('../../router/index')
+const {weRouter} = require('../../weRouter/index')
 Page({
     data: {
         isLogin: false
@@ -23,7 +23,7 @@ Page({
     },
     handleNavigate(e) {
         const {url, linkType} = e.currentTarget.dataset
-        router[linkType]({
+        weRouter[linkType]({
             url
         })
     }

@@ -1,10 +1,10 @@
 const app = getApp()
-const routerPage = function (obj) {
-  const _onLoad = obj.onLoad
-  const _onShow = obj.onShow
-  const _onReady = obj.onReady
-  const _onHide = obj.onHide
-  const _onUnload = obj.onUnload
+const wePage = function (obj) {
+  const _onLoad = obj.onLoad || function(){}
+  const _onShow = obj.onShow || function(){}
+  const _onReady = obj.onReady || function(){}
+  const _onHide = obj.onHide || function(){}
+  const _onUnload = obj.onUnload || function(){}
 
   obj.onLoad = function (options) {
     if (app.routerOnLoad) {
@@ -44,4 +44,4 @@ const routerPage = function (obj) {
   return Page(obj)
 }
 
-module.exports = routerPage
+module.exports = wePage

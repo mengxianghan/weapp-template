@@ -8,7 +8,7 @@
     "pages/navBar/navBar"
   ],
   "usingComponents": {
-    "router-link": "/router/router-link/index",
+    "we-router": "./weRouter/we-router/index",
     "van-icon": "@vant/weapp/icon/index",
     "van-cell-group": "@vant/weapp/cell-group/index",
     "van-cell": "@vant/weapp/cell/index",

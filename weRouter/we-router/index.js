@@ -2,7 +2,7 @@ const app = getApp()
 Component({
     externalClasses: ['custom-class'],
     lifetimes: {
-        attached: function () {
+        attached() {
             this.setUrl()
         }
     },
@@ -59,25 +59,24 @@ Component({
      * 组件的方法列表
      */
     methods: {
-        setUrl: function () {
+        setUrl() {
+            const {url} = this.data
             app.routerBeforeEach.call(this, {
-                    url: this.data.url
+                    url
                 },
-                (to = {
-                    url: this.data.url
-                }) => {
+                (to = {url}) => {
                     this.setData({
                         currentUrl: to.url
                     })
                 })
         },
-        onSuccess: function (e) {
+        onSuccess(e) {
             this.triggerEvent('success', e)
         },
-        onFail: function () {
+        onFail(e) {
             this.triggerEvent('fail', e)
         },
-        onComplete: function () {
+        onComplete(e) {
             this.triggerEvent('complete', e)
         }
     }
