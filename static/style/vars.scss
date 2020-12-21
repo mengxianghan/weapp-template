@@ -1,1 +1,44 @@
-$bg-color: #f7f8fa;
+// ColorPalette
+$black: #000;
+$white: #fff;
+$primary: #1989fa;
+$blue: #1989fa;
+$green: #07c160;
+$red: #ee0a24;
+$orange: #ff976a;
+
+// Border
+$border-radius: 8rpx;
+$border-radius-sm: 4rpx;
+$border-radius-md: 12rpx;
+$border-radius-lg: 16rpx;
+$border-radius-square: 0;
+$border-radius-circle: 10em;
+$border-color: #ebedf0;
+
+// Color
+$color-primary: $primary;
+$color-success: $green;
+$color-error: $red;
+$color-warning: $orange;
+$background-color: #f7f8fa;
+
+// Font
+$font-size: 28rpx;
+$font-size-sm: 24rpx;
+$font-size-md: 32px;
+$font-size-lg: 36px;
+$font-weight-bold: 500;
+$font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+$font-family-price: Avenir-Heavy, PingFang SC, Helvetica Neue, Arial, sans-serif;
+
+// Text
+$text-primary-color: $color-primary;
+$text-success-color: $color-success;
+$text-error-color: $color-error;
+$text-warning-color: $color-warning;
+$text-heading-color: rgba(0, 0, 0, .85);
+$text-color: rgba(0, 0, 0, .65);
+$text-secondary-color: rgba(0, 0, 0, .45);
+$text-placeholder-color: rgba(0, 0, 0, .25);
+$text-link-color: #576b95;

@@ -9,6 +9,7 @@
   ],
   "usingComponents": {
     "we-router": "./weRouter/we-router/index",
+    "container": "./components/container/index",
     "van-icon": "@vant/weapp/icon/index",
     "van-cell-group": "@vant/weapp/cell-group/index",
     "van-cell": "@vant/weapp/cell/index",

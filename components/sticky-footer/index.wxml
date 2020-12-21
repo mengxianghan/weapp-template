@@ -1,0 +1,9 @@
+<view class="custom-class">
+    <view class="sticky-footer"
+          style="background:{{background}}"
+          id="stickyFooter">
+        <slot/>
+    </view>
+    <view class="sticky-footer__placeholder"
+          style="height:{{height}}"></view>
+</view>

@@ -1,5 +1,12 @@
+@charset "UTF-8";
+/**
+ * @Author: 孟祥涵
+ * @Email: 1056811341@qq.com
+ * @Date: 2020-12-21
+ * @Description: reset
+ */
 page {
-  font: normal normal normal 14px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Segoe UI, Arial, Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  font: normal normal normal 28rpx/1 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Segoe UI, Arial, Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 
 .doc-demo-section {

@@ -1,0 +1,4 @@
+<view class="container custom-class"
+      style="background:{{background}};">
+    <slot></slot>
+</view>
